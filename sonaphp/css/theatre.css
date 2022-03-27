@@ -1,0 +1,52 @@
+.tn-block {
+  border-bottom: 1px solid rgb(182, 177, 177);
+}
+.tn-block h5 {
+  font-family: "Slabo 27px", serif;
+  font-size: 17px;
+  font-weight: bold;
+}
+.Filter h6 {
+  border-bottom: 1px solid rgb(194, 177, 177);
+}
+.experience {
+  color: #bac8db;
+}
+.amenities {
+  color: #bac8db;
+}
+
+.tn-theatre-icon {
+  float: left;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  background: #bac8db;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  margin-right: 24px;
+  position: relative;
+}
+.tn-entity-book {
+  float: right;
+  height: 80px;
+  line-height: 80px;
+}
+.tn-entity-details {
+  float: left;
+  width: 268px;
+  padding: 10px;
+}
+.tn-entity-book a {
+  display: inline-block;
+  width: 97px;
+  height: 37px;
+  line-height: 37px;
+  font-size: 14px;
+  text-align: center;
+  color: #212121;
+  background: #f5f5f5;
+  border: 1px solid #e2e2e2;
+  vertical-align: middle;
+}

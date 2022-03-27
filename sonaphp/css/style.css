@@ -1,0 +1,145 @@
+.contactus {
+  background-color: #ebfcfb;
+}
+h4 {
+  color: #b5b7b9;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: "Slabo 27px", serif;
+}
+.formcol {
+  background-color: #fff;
+}
+.formcol .button_1:hover {
+  background-color: rgb(185, 226, 36) !important;
+  color: rgb(34, 98, 134) !important ;
+}
+.TopTxt h4:after {
+  width: 26px;
+  height: 5px;
+  content: "";
+  background: red;
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+.TopTxt p,
+h4 {
+  color: rgb(185, 226, 36);
+  line-height: 30px;
+}
+input[type="text"] {
+  border: none !important;
+  border-bottom: 1px solid gray !important;
+  height: 60px;
+  padding: 0 40px;
+}
+input:focus-visible {
+  border: none !important;
+  border-bottom: 1px solid gray !important;
+  outline: none !important;
+}
+.field1 {
+  position: relative;
+}
+.field2 {
+  position: relative;
+}
+.field3 {
+  position: relative;
+}
+.field4 {
+  position: relative;
+}
+.field5 {
+  position: relative;
+}
+
+.field1:after {
+  content: "";
+  position: absolute;
+  background-image: url("../image/add-user.png");
+  left: 4px;
+  top: 8px;
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: cover;
+}
+.field2:after {
+  content: "";
+  position: absolute;
+  background-image: url("../image/mail.png");
+  left: 4px;
+  top: 8px;
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: cover;
+}
+.field3:after {
+  content: "";
+  position: absolute;
+  background-image: url("../image/phone-call.png");
+  left: 4px;
+  top: 8px;
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: cover;
+}
+.field4:after {
+  content: "";
+  position: absolute;
+  background-image: url("../image/pencil.png");
+  left: 4px;
+  top: 8px;
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: cover;
+}
+.field5:after {
+  content: "";
+  position: absolute;
+  background-image: url("../image/pencil.png");
+  left: 4px;
+  top: 8px;
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: cover;
+}
+
+.contactUs {
+  background-image: url("../image/contactBg.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+.contactUs1 {
+  border: 1px solid rgb(219, 214, 214);
+  display: table;
+  color: rgb(235, 226, 226);
+}
+.myicon {
+  float: left;
+  padding-left: 30px;
+}
+.form-para {
+  display: table;
+  /* margin-left: 40px; */
+  padding-left: 20px;
+  color: aliceblue;
+
+  font-family: "Slabo 27px", serif;
+}
